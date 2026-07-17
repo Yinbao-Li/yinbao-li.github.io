@@ -84,3 +84,30 @@ awards:
   date: 2012-2014
 - name: Top Ten Students Award, Hebei University of Technology
   date: 2014
+
+patents:
+- name: "Enhance Radar Point Cloud with 2D Local Diffusion"
+  number: "CN119809970A"
+  date: 2025-04-11
+  status: Granted
+- name: "Real time free space detection method based on quasi density tree structure"
+  number: "CN116977997A"
+  date: 2023-10-31
+  status: Granted
+- name: "A Method of Point Cloud Denoising for Millimeter Wave Radar Based on Graph Clustering"
+  number: "CN116778444A"
+  date: 2023-09-19
+  status: Granted
+- name: "A Graph Clustering Method Based on Spatial Distribution Density"
+  number: "CN115905905A"
+  date: 2023-04-04
+  status: Granted
+- name: "Hash Value Clustering Method Based on the Characteristic Graph of Data Distribution Density Change Rate"
+  number: "CN115828131A"
+  date: 2023-03-21
+  status: Pending
+- name: "A Method for Automatic Extraction and Annotation of Parking Space Information from Millimeter Wave Radar Point Cloud Data"
+  number: "CN115345772A"
+  date: 2022-11-15
+  status: Pending
+
