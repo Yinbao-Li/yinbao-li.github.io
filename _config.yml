@@ -1,4 +1,4 @@
-baseurl: "/personal-academic-page"
+baseurl: ""
 
 markdown: kramdown
 plugins:
