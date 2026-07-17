@@ -90,3 +90,25 @@ div.lazy {
     font-family: Courier, monospace;
 }
 
+.experience-item {
+  display: flex;
+  align-items: flex-start;
+}
+
+.experience-item img {
+  width: 40px;
+  height: 40px;
+  object-fit: contain;
+  margin-right: 12px;
+  flex-shrink: 0;   /* ✅ 关键 */
+}
+
+.experience-content {
+  flex: 1;
+  min-width: 0;     /* ✅ 关键，防止被压缩异常 */
+}
+
+.experience-name {
+  word-break: normal;
+  overflow-wrap: break-word;
+}
