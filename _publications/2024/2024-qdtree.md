@@ -1,7 +1,7 @@
 ---
 title:          "QDTree: Quasi-Density-Tree Accelerates Free Space Detection with MMW Radar Point Cloud"
 date:           2024-08-01 00:01:00 +0800
-selected:       true
+selected:       false
 pub:            "Frontiers in Artificial Intelligence and Applications, IOS Press"
 pub_last:       ' <span class="badge badge-pill badge-publication badge-success">Conference</span>'
 pub_date:       "2024"
