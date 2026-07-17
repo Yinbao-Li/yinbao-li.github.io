@@ -26,3 +26,27 @@ navbar_title: Home
         title='<i class="fas fa-star"></i> Selected Publications'
     %}
 {% endif %}
+
+{% if site.data.profile.patents %}
+<div class="my-3 p-0 bg-white shadow-sm rounded-xl">
+    <h6 class="border-bottom border-gray p-3 mb-0">
+        <i class="fas fa-file-alt"></i> Patents
+    </h6>
+    <ul class="list-unstyled px-3 pb-3 mb-0">
+        {% for item in site.data.profile.patents %}
+        <li class="py-1">
+            <div class="d-flex">
+                <div>
+                    <strong>{{ item.name }}</strong>
+                    {% if item.number %}<span class="text-muted">({{ item.number }})</span>{% endif %}
+                    <span class="badge badge-{% if item.status == 'Granted' %}success{% else %}warning{% endif %}">{{ item.status }}</span>
+                    <br/>
+                    <small class="text-muted">{{ item.date }}</small>
+                </div>
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+{% endif %}
+
